@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <filter id="Icon_awesome-edit" x="0" y="0" width="25" height="25" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#717171" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <path id="Icon_awesome-edit-2" data-name="Icon awesome-edit" d="M17.474,4.065l3.915,4.405a.521.521,0,0,1,0,.674L11.91,19.811l-4.028.5a.9.9,0,0,1-.933-1.05L7.4,14.732,16.875,4.065A.392.392,0,0,1,17.474,4.065Zm7.031-1.118L22.387.564a1.567,1.567,0,0,0-2.4,0L18.455,2.293a.521.521,0,0,0,0,.674L22.37,7.372a.392.392,0,0,0,.6,0l1.536-1.729a2.083,2.083,0,0,0,0-2.7ZM16.667,16.91v4.972H2.778V6.253h9.974a.5.5,0,0,0,.369-.171l1.736-1.954a.6.6,0,0,0-.369-1H2.083A2.226,2.226,0,0,0,0,5.472V22.663a2.226,2.226,0,0,0,2.083,2.344H17.361a2.226,2.226,0,0,0,2.083-2.344V14.956a.517.517,0,0,0-.89-.415l-1.736,1.954A.641.641,0,0,0,16.667,16.91Z" transform="translate(0 -0.007)" fill="#0cb100"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-edit)">
+      <path id="Icon_awesome-edit-3" data-name="Icon awesome-edit" d="M17.474,4.065l3.915,4.405a.521.521,0,0,1,0,.674L11.91,19.811l-4.028.5a.9.9,0,0,1-.933-1.05L7.4,14.732,16.875,4.065A.392.392,0,0,1,17.474,4.065Zm7.031-1.118L22.387.564a1.567,1.567,0,0,0-2.4,0L18.455,2.293a.521.521,0,0,0,0,.674L22.37,7.372a.392.392,0,0,0,.6,0l1.536-1.729a2.083,2.083,0,0,0,0-2.7ZM16.667,16.91v4.972H2.778V6.253h9.974a.5.5,0,0,0,.369-.171l1.736-1.954a.6.6,0,0,0-.369-1H2.083A2.226,2.226,0,0,0,0,5.472V22.663a2.226,2.226,0,0,0,2.083,2.344H17.361a2.226,2.226,0,0,0,2.083-2.344V14.956a.517.517,0,0,0-.89-.415l-1.736,1.954A.641.641,0,0,0,16.667,16.91Z" transform="translate(0 -0.01)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

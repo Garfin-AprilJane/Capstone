@@ -1,0 +1,1182 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Bookman Old Style;
+}
+
+:root {
+  --color1: #000;
+  --color2: #fff;
+  --bg-color1: #f5faff;
+  --bg-color2: #fff;
+  --bg-color3: #ec0000;
+  --bg-color4: #242424;
+  --bg-color5: #b5b5b5;
+  --font-size1: .9em;
+  --padding1: .5em;
+  --padding2: 1em;
+  --border-radius: .5em;
+  --margin1: 1em;
+  --margin2: 2em;
+  --tr-color1: #f3f3f3;
+  --tr-color2: #d1d1d1;
+  --transition: .3s ease-in-out;
+  --border: 1px solid #919090;
+  --bodyColor: #ececec;
+  --priColor: #010e30;
+  --padding: .5em;
+  --fontSize: .9em;
+  --borderRadius: 5px;
+  --textColor: #fff;
+  --textColor1: #000;
+  --border: 1px solid #d3d3d3;
+  --outline: 2px solid #0024c2;
+  --blueColor: #0C00B1;
+  --redColor: #B10000;
+  --greenColor: #0CB100;
+  --transition: .3s ease-in-out;
+  --bg1: #f5f5f5;
+  --bg2: #ececec;
+  --bg3: #858585;
+  --bg4: #ccc7ff;
+  --bg6: #dedbff;
+  --bg5: #4635ff;
+  --boxShadow: 1px 1px 2px var(--textColor1);
+  --colorSuccess: #a8ffa8;
+  --colorFailed: #ffa8a8;
+  --colorWarning: #fff6a8;
+  --widthHeightImage1: 25px;
+  --widthHeightImage2: 20px;
+  --widthHeightImage3: 15px;
+  --primaryColor: #4682b4;
+  --color1: #f3f3f3;
+  --color2: #000000;
+  --backgroundColor1: #f3f3f3;
+  --backgroundColor2: #000000;
+  --backgroundColor3: #244057;
+  --fontSize: 1rem;
+  --padding1: .5rem;
+  --padding2: 1rem;
+  --padding3: 1.5rem;
+  --margin1: .5rem;
+  --margin2: 1rem;
+  --margin3: 1.5rem;
+  --borderRadius: 5px;
+  --border: 1px solid #d6d6d6;
+  --colorRed: #b92e2e;
+  --colorBlue: #2e7ab9;
+  --colorGreen: #45b92e;
+  --colorYellow: #b9b02e;
+  --backgroundColorRed: #b92e2e;
+  --backgroundColorBlue: #2e7ab9;
+  --backgroundColorGreen: #45b92e;
+  --backgroundColorYellow: #b9b02e;
+  --imageWidthHeight1: 30px;
+  --imageWidthHeight2: 50px;
+  --imageWidthHeight3: 100px;
+  --imageWidthHeight4: 150px;
+  --border: 2px solid #244057;
+  --primary-color: #4682b4;
+  --color1: #000;
+  --color2: #fff;
+  --bg-color1: #f5faff;
+  --bg-color2: #fff;
+  --bg-color3: #ec0000;
+  --bg-color4: #242424;
+  --bg-color5: #b5b5b5;
+  --font-size1: .9em;
+  --padding1: .5em;
+  --padding2: 1em;
+  --border-radius: .5em;
+  --margin1: 1em;
+  --margin2: 2em;
+  --tr-color1: #f3f3f3;
+  --tr-color2: #d1d1d1;
+  --transition: .3s ease-in-out;
+  --border: 1px solid #919090;
+  --bodyColor: #ececec;
+  --priColor: #010e30;
+  --padding: .5em;
+  --fontSize: .9em;
+  --borderRadius: 5px;
+  --textColor: #fff;
+  --textColor1: #000;
+  --border: 1px solid #d3d3d3;
+  --outline: 2px solid #0024c2;
+  --blueColor: #0C00B1;
+  --redColor: #B10000;
+  --greenColor: #0CB100;
+  --transition: .3s ease-in-out;
+  --bg1: #f5f5f5;
+  --bg2: #ececec;
+  --bg3: #858585;
+  --bg4: #ccc7ff;
+  --bg6: #dedbff;
+  --bg5: #4635ff;
+  --boxShadow: 1px 1px 2px var(--textColor1);
+  --colorSuccess: #a8ffa8;
+  --colorFailed: #ffa8a8;
+  --colorWarning: #fff6a8;
+  --widthHeightImage1: 25px;
+  --widthHeightImage2: 20px;
+  --widthHeightImage3: 15px;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.button-disabled {
+  cursor: default !important;
+  border: none !important;
+  opacity: .5;
+}
+
+label {
+  font-size: var(--font-size1);
+}
+
+button,
+input,
+select,
+textarea {
+  border-radius: var(--border-radius);
+  padding: var(--padding1);
+  border: var(--border);
+  accent-color: var(--primary-color);
+  outline: none;
+  font-size: var(--font-size1);
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  border: 1px solid var(--primary-color);
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+body .main-page {
+  text-align: center;
+  margin: 3em 5%;
+}
+
+body .main-page .logo img {
+  width: 8em;
+  border-radius: 50em;
+}
+
+body .main-page .title {
+  margin: var(--margin2);
+}
+
+body .main-page .title h1 {
+  color: var(--color1);
+}
+
+body .main-page .login-form {
+  border-radius: var(--border-radius);
+  padding: var(--padding1);
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+body .main-page .login-form div {
+  background-color: var(--bg-color2);
+  padding: var(--padding1);
+  text-align: left;
+  border-radius: var(--border-radius);
+  margin: var(--margin1) 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+body .main-page .login-form div input {
+  outline: none;
+  border: none;
+  font-size: var(--font-size1);
+  padding: .5em;
+}
+
+body .main-page .login-form div img {
+  width: 20px;
+}
+
+body .main-page .login-form button {
+  border: none;
+  outline: none;
+  border-radius: var(--border-radius);
+  padding: var(--padding1);
+  width: 100%;
+  font-size: var(--font-size1);
+  cursor: pointer;
+  background-color: var(--bg-color3);
+  color: var(--color2);
+  opacity: .7;
+}
+
+body .main-page .login-form button:hover {
+  opacity: 1;
+}
+
+body .main-page .login-form p {
+  margin-bottom: .5em;
+  color: var(--bg-color3);
+}
+
+body .header-top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 5em;
+  background-color: var(--primary-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: var(--padding1);
+  -webkit-box-shadow: 0 1px 5px var(--bg-color4);
+  box-shadow: 0 1px 5px var(--bg-color4);
+  z-index: 5;
+}
+
+body .header-top aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+body .header-top aside img {
+  width: 4em;
+  margin-right: var(--margin1);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+body .header-top aside p {
+  font-weight: bold;
+  font-size: var(--font-size1);
+}
+
+body .header-top .aside-right img {
+  width: 2em;
+  margin-right: unset;
+}
+
+body .header-left {
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  top: 5em;
+  padding: var(--padding1);
+  background-color: #c3dfff;
+  width: 18em;
+  z-index: 4;
+  -webkit-box-shadow: 1px 0 5px var(--bg-color4);
+  box-shadow: 1px 0 5px var(--bg-color4);
+}
+
+body .header-left nav ul {
+  list-style-type: none;
+}
+
+body .header-left nav ul a {
+  text-decoration: none;
+}
+
+body .header-left nav ul a li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: var(--padding1);
+  font-size: var(--font-size1);
+  color: var(--color1);
+}
+
+body .header-left nav ul a li img {
+  width: 2em;
+  margin-right: .5em;
+}
+
+body .header-left nav ul a .li-current {
+  background-color: var(--primary-color);
+}
+
+body .section-content {
+  position: fixed;
+  top: 5em;
+  left: 18em;
+  width: calc(100% - 18em);
+  height: calc(100vh - 5em);
+  background-color: var(--bg-color1);
+  z-index: 3;
+  padding: var(--padding1);
+}
+
+body .section-content .content-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: var(--padding1);
+}
+
+body .section-content .content-action button {
+  padding: var(--padding1);
+  font-size: var(--font-size1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: .3em;
+}
+
+body .section-content .content-action button img {
+  width: 2em;
+  margin-right: .5em;
+}
+
+body .section-content .data {
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: var(--padding1);
+}
+
+body .section-content .data .top-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: var(--padding1);
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+body .section-content .data .top-actions .left label,
+body .section-content .data .top-actions .left select,
+body .section-content .data .top-actions .left input,
+body .section-content .data .top-actions .right label,
+body .section-content .data .top-actions .right select,
+body .section-content .data .top-actions .right input {
+  font-size: var(--fontSize1);
+  padding: var(--padding1);
+}
+
+body .section-content .data .top-actions .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+body .section-content .data .top-actions .right .filter-by {
+  margin: 0 .2em;
+}
+
+body .section-content .data .table-data {
+  margin: .5em;
+  overflow: auto;
+}
+
+body .section-content .data .table-data table {
+  border-collapse: collapse;
+}
+
+body .section-content .data .table-data table tr,
+body .section-content .data .table-data table th,
+body .section-content .data .table-data table td {
+  padding: var(--padding1);
+  font-size: var(--fontSize1);
+}
+
+body .section-content .data .table-data table th,
+body .section-content .data .table-data table td {
+  border-right: 1px solid var(--bg-color5);
+}
+
+body .section-content .data .table-data table th:first-child,
+body .section-content .data .table-data table td:first-child {
+  border-left: 1px solid var(--bg-color5);
+}
+
+body .section-content .data .table-data table thead tr {
+  background-color: var(--primary-color);
+}
+
+body .section-content .data .table-data table thead tr th {
+  font-weight: bold;
+  border-top: 1px solid var(--bg-color5);
+}
+
+body .section-content .data .table-data table tbody tr:nth-child(odd) {
+  background-color: var(--tr-color1);
+}
+
+body .section-content .data .table-data table tbody tr:nth-child(even) {
+  background-color: var(--tr-color2);
+}
+
+body .section-content .data .table-data table tbody tr:last-child {
+  border-bottom: 1px solid var(--bg-color5);
+}
+
+body .section-content .data .table-data table tbody tr .td-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+body .section-content .data .table-data table tbody tr .td-action span {
+  margin: 0 .2em;
+}
+
+body .section-content .data .table-data table tbody tr .td-action div {
+  margin: .2em;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+body .section-content .data .table-data table tbody tr .td-action div select {
+  padding: var(--padding1);
+  font-size: var(--fontSize1);
+}
+
+body .section-content .data .table-data table tbody tr .td-action div img {
+  width: 20px;
+  cursor: pointer;
+}
+
+body .section-content .data .table-data table tbody tr .td-action div button {
+  padding: var(--padding1);
+  font-size: var(--fontSize1);
+}
+
+body .section-content .data .table-data table tbody tr td .switch-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+body .section-content .data .table-data table tbody tr td .switch-user img {
+  width: 2em;
+  cursor: pointer;
+  margin-right: .5em;
+  border-radius: 52em;
+}
+
+body .section-content .data .table-data table tbody tr td .switch-user .outer {
+  width: 40px;
+  height: 15px;
+  background-color: var(--primary-color);
+  border-radius: 50px;
+  position: relative;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  margin: unset;
+}
+
+body .section-content .data .table-data table tbody tr td .switch-user .outer .inner {
+  position: absolute;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  top: -2.5px;
+  left: 21px;
+  width: 20px;
+  height: 20px;
+  background-color: var(--bg5);
+  border-radius: 50%;
+  cursor: pointer;
+  margin: unset;
+}
+
+body .section-content .data .pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: var(--padding1);
+}
+
+body .section-content .data .pagination aside p {
+  font-size: var(--fontSize1);
+}
+
+body .section-content .data .pagination aside button {
+  padding: var(--padding1);
+  font-size: var(--fontSize1);
+  color: var(--color1);
+}
+
+body .section-content .data .total-data p {
+  font-size: small;
+  padding: var(--padding1);
+}
+
+body .dialog {
+  position: absolute;
+  top: 2em;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: var(--bg-color2);
+  z-index: 6;
+  padding: var(--padding2);
+  border: none;
+  outline: none;
+  width: 35em;
+}
+
+body .dialog .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1rem;
+}
+
+body .dialog .top div p {
+  font-size: var(--font-size1);
+  font-weight: bold;
+}
+
+body .dialog .top div img {
+  width: 2em;
+  cursor: pointer;
+}
+
+body .dialog .inputs {
+  overflow: auto;
+}
+
+body .dialog .inputs input {
+  width: 100%;
+  margin-bottom: .5em;
+}
+
+body .dialog .inputs select {
+  width: 100%;
+  margin-bottom: .5em;
+}
+
+body .dialog .input-fields div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: .2em;
+}
+
+body .dialog .input-fields div label,
+body .dialog .input-fields div input,
+body .dialog .input-fields div select {
+  width: 100%;
+}
+
+body .dialog button {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+body .dialog button img {
+  width: 2em;
+}
+
+body .dialog::-webkit-backdrop {
+  background-color: black;
+  opacity: .7;
+}
+
+body .dialog::backdrop {
+  background-color: black;
+  opacity: .7;
+}
+
+body .new-account .search-student .result {
+  margin-top: .2em;
+}
+
+body .new-account .search-student .result p {
+  font-size: var(--font-size1);
+  padding: var(--padding1);
+  width: 100%;
+  background-color: #c3dfff;
+  cursor: pointer;
+}
+
+body .add-grade .search-student .result {
+  margin-top: .2em;
+}
+
+body .add-grade .search-student .result p {
+  font-size: var(--font-size1);
+  padding: var(--padding1);
+  width: 100%;
+  background-color: #c3dfff;
+  cursor: pointer;
+}
+
+body .logout-account {
+  border: none;
+  outline: none;
+  position: absolute;
+  right: 1em;
+  z-index: 7;
+  width: 15em;
+  padding: var(--padding1);
+  background-color: var(--bg-color1);
+  top: 6em;
+  -webkit-box-shadow: 0 0px 5px var(--bg-color4);
+  box-shadow: 0 0px 5px var(--bg-color4);
+  display: block;
+}
+
+body .logout-account .head {
+  font-size: small;
+  color: gray;
+  border-bottom: 1px solid gray;
+  padding-bottom: var(--padding1);
+  margin-bottom: var(--margin1);
+}
+
+body .logout-account div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+body .logout-account .user-profile {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+body .logout-account .user-profile img {
+  width: 2em;
+  border-radius: 50%;
+  margin-right: .5em;
+}
+
+body .logout-account .user-profile strong {
+  font-size: var(--font-size1);
+}
+
+body .logout-account .account {
+  cursor: pointer;
+  padding: var(--padding1);
+  position: relative;
+}
+
+body .logout-account .account p {
+  font-size: var(--font-size1);
+}
+
+body .logout-account .account img {
+  width: 1.2em;
+}
+
+body .logout-account .account:hover {
+  background-color: lightgray;
+}
+
+body .logout-account .account .account-options {
+  position: absolute;
+  background-color: var(--bg-color1);
+  -webkit-box-shadow: 0 0px 5px var(--bg-color4);
+  box-shadow: 0 0px 5px var(--bg-color4);
+  left: -8em;
+  top: 0em;
+  display: block;
+}
+
+body .logout-account .account .account-options .option {
+  padding: var(--padding1);
+}
+
+body .logout-account .account .account-options .option p {
+  color: var(--color1);
+  font-size: var(--font-size1);
+}
+
+body .logout-account .account .account-options .option:hover {
+  background-color: lightgray;
+}
+
+body .change-password #changePassword div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+body .change-password #changePassword div input[type=checkbox] {
+  width: unset;
+  margin-left: .5em;
+  cursor: pointer;
+}
+
+body .update-enrollment .inputs .details,
+body .new-enrollment .inputs .details,
+body .update-grade .inputs .details,
+body .add-grade .inputs .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+body .update-enrollment .inputs .details .column,
+body .new-enrollment .inputs .details .column,
+body .update-grade .inputs .details .column,
+body .add-grade .inputs .details .column {
+  margin: 1rem;
+}
+
+body .card {
+  background-color: #c3dfff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+body .cards {
+  background-color: #c3dfff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20em;
+}
+
+body #myInput {
+  border: transparent;
+}
+
+body .section-contents {
+  position: fixed;
+  top: 5em;
+  left: 18em;
+  width: calc(100% - 18em);
+  height: calc(100vh - 5em);
+  z-index: 3;
+  background-color: var(--bg-color1);
+  padding: var(--padding1);
+}
+
+body .section-contents .total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+body .section-contents .total .list {
+  padding: var(--padding2);
+  border: var(--border);
+  margin: var(--margin2);
+  width: 15rem;
+  height: 10rem;
+}
+
+body .section-contents .total .list div {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+body .section-contents .total .list div p {
+  text-transform: uppercase;
+  font-size: var(--fontSize);
+  letter-spacing: .2rem;
+  margin-top: var(--margin1);
+}
+
+body .section-contents .total .list:hover {
+  background-color: var(--primary-color);
+}
+
+body .section-contents .div-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+body .section-contents .div-buttons aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+body .section-contents .content-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: var(--padding1);
+}
+
+body .section-contents .content-action button {
+  padding: var(--padding1);
+  font-size: var(--font-size1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: .3em;
+}
+
+body .section-contents .content-action button img {
+  width: 2em;
+  margin-right: .5em;
+}
+
+body .section-contents .data {
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: var(--padding1);
+}
+
+body .section-contents .data .top-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: var(--padding1);
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+body .section-contents .data .top-actions .left label,
+body .section-contents .data .top-actions .left select,
+body .section-contents .data .top-actions .left input,
+body .section-contents .data .top-actions .right label,
+body .section-contents .data .top-actions .right select,
+body .section-contents .data .top-actions .right input {
+  font-size: var(--fontSize1);
+  padding: var(--padding1);
+}
+
+body .section-contents .data .top-actions .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+body .section-contents .data .top-actions .right .filter-by {
+  margin: 0 .2em;
+}
+
+body .section-contents .data .table-data {
+  margin: .5em;
+  overflow: auto;
+}
+
+body .section-contents .data .table-data table {
+  border-collapse: collapse;
+}
+
+body .section-contents .data .table-data table tr,
+body .section-contents .data .table-data table th,
+body .section-contents .data .table-data table td {
+  padding: var(--padding1);
+  font-size: var(--fontSize1);
+}
+
+body .section-contents .data .table-data table th,
+body .section-contents .data .table-data table td {
+  border-right: 1px solid var(--bg-color5);
+}
+
+body .section-contents .data .table-data table th:first-child,
+body .section-contents .data .table-data table td:first-child {
+  border-left: 1px solid var(--bg-color5);
+}
+
+body .section-contents .data .table-data table thead tr {
+  background-color: var(--primary-color);
+}
+
+body .section-contents .data .table-data table thead tr th {
+  font-weight: bold;
+  border-top: 1px solid var(--bg-color5);
+}
+
+body .section-contents .data .table-data table tbody tr:nth-child(odd) {
+  background-color: var(--tr-color1);
+}
+
+body .section-contents .data .table-data table tbody tr:nth-child(even) {
+  background-color: var(--tr-color2);
+}
+
+body .section-contents .data .table-data table tbody tr:last-child {
+  border-bottom: 1px solid var(--bg-color5);
+}
+
+body .section-contents .data .table-data table tbody tr .td-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+body .section-contents .data .table-data table tbody tr .td-action span {
+  margin: 0 .2em;
+}
+
+body .section-contents .data .table-data table tbody tr .td-action div {
+  margin: .2em;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+body .section-contents .data .table-data table tbody tr .td-action div select {
+  padding: var(--padding1);
+  font-size: var(--fontSize1);
+}
+
+body .section-contents .data .table-data table tbody tr .td-action div img {
+  width: 20px;
+  cursor: pointer;
+}
+
+body .section-contents .data .table-data table tbody tr .td-action div button {
+  padding: var(--padding1);
+  font-size: var(--fontSize1);
+}
+
+body .section-contents .data .table-data table tbody tr td .switch-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+body .section-contents .data .table-data table tbody tr td .switch-user img {
+  width: 2em;
+  cursor: pointer;
+  margin-right: .5em;
+  border-radius: 52em;
+}
+
+body .section-contents .data .table-data table tbody tr td .switch-user .outer {
+  width: 40px;
+  height: 15px;
+  background-color: var(--primary-color);
+  border-radius: 50px;
+  position: relative;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  margin: unset;
+}
+
+body .section-contents .data .table-data table tbody tr td .switch-user .outer .inner {
+  position: absolute;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  top: -2.5px;
+  left: 21px;
+  width: 20px;
+  height: 20px;
+  background-color: var(--bg5);
+  border-radius: 50%;
+  cursor: pointer;
+  margin: unset;
+}
+
+body .section-contents .data .pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: var(--padding1);
+}
+
+body .section-contents .data .pagination aside p {
+  font-size: var(--fontSize1);
+}
+
+body .section-contents .data .pagination aside button {
+  padding: var(--padding1);
+  font-size: var(--fontSize1);
+  color: var(--color1);
+}
+
+body .section-contents .data .total-data p {
+  font-size: small;
+  padding: var(--padding1);
+}
+
+/*# sourceMappingURL=style.css.map */
